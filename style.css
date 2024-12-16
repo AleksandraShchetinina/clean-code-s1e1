@@ -21,7 +21,7 @@
     font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
   .header {
      text-align: center;
    }
@@ -47,7 +47,7 @@
 
 .todo__list,
 .completed__list {
-    margin:0;
+    margin: 0;
     padding: 0px;
 }
 
@@ -177,7 +177,7 @@
 /* Edit Task */
 .list-item 
 .input-tex {
-    display:none
+    display: none
 }
 
 .list-item.edit-mode 
@@ -188,5 +188,5 @@
 
 .list-item.edit-mode 
 .label-text {
-    display:none;
+    display: none;
 }
