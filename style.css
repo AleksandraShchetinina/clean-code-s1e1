@@ -9,8 +9,7 @@
     width: 500px;
     margin: 0 auto;
     display: block;
-    text-align: right;
-   
+    text-align: right; 
 }
 
 .header__img {
@@ -55,14 +54,14 @@
 .completed__title,
 .todo__title,
 .add-item__title  {
-  list-style:none;
+  list-style: none;
 }
 
 .input-text,
 .add-item__button,
 .todo__button,
 .completed__button {
-  outline:none;
+  outline: none;
 }
 
 .add-item__button,
@@ -128,7 +127,6 @@
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -175,7 +173,7 @@
 }
 
 /* Edit Task */
-.list-item 
+.list-item
 .input-tex {
     display: none;
 }
